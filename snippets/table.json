@@ -1,0 +1,24 @@
+{
+  "element table row": {
+    "prefix": "l-tabel__row",
+    "body": [
+      "<el-table-column prop='${1}' label='${2}' align='center' ></el-table-column>"
+    ],
+    "description": "element table row"
+  },
+  "element table row template": {
+    "prefix": "l-table__row-template",
+    "body": [
+      "<el-table-column label='${1}'  align='center'>",
+      "\t<template slot-scope={row}>",
+      "\t\t${2}",
+      "\t</template>",
+      "</el-table-column>"
+    ],
+    "description": "element table template"
+  },
+  "element table ": {
+    "prefix": "l-tabel__pagination",
+    "body": ["<pagination :total='total' @pagination='handlePagination' />"]
+  }
+}

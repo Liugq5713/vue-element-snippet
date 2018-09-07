@@ -1,0 +1,43 @@
+{
+  "a successfull message after operate success": {
+    "prefix": "l-message__success",
+    "body": [
+      "this.\\$message({",
+      "\tmessage: '${1:更新成功}',",
+      "\ttype: '${2:success}'",
+      "})$0"
+    ],
+    "description": "Used to show feedback after an activity"
+  },
+  "a error message after operate defeat": {
+    "prefix": "l-message__error",
+    "body": [
+      "this.\\$message({",
+      "\tmessage: '${1:更新失败}',",
+      "\ttype: '${2:error}'",
+      "})$0"
+    ],
+    "description": "Used to show feedback after an activity"
+  },
+  "to confirm ": {
+    "prefix": "l-message__confirm",
+    "body": [
+      "this.\\$confirm('此操作将永久删除此项, 是否继续?', '提示',",
+      "\t {",
+      "\t\t confirmButtonText: '确定',",
+      "\t\t cancelButtonText: '取消',",
+      "\t\t type: 'warning'",
+      "\t\t }).then(() => {",
+      "\t\t\t this.\\$message({",
+      "\t\t\t\t type: 'success',",
+      "\t\t\t\t message: '删除成功!'",
+      "\t\t\t });",
+      "\t\t }).catch(() => {",
+      "\t\t\t this.\\$message({",
+      "\t\t\t\t type: 'info',",
+      "\t\t\t\t message: '已取消删除'",
+      "\t\t\t });",
+      "\t\t\t });"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "vue-element-admin-snippet",
+  "displayName": "vue-element-admin-snippet",
+  "description": "help you tote bricks quickly",
+  "version": "0.0.1",
+  "publisher": "liugq",
+  "engines": {
+    "vscode": "^1.24.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/apis.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/base.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/base.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/conponents.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/conponents.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/form.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/import.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/input.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/message.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/methods.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/router.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/table.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/table.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/tag.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/tag.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/wrapper.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/wrapper.json"
+      }
+    ]
+  }
+}

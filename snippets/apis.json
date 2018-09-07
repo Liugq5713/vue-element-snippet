@@ -1,0 +1,36 @@
+{
+  "get api template": {
+    "prefix": "l-api__get",
+    "body": [
+      "export function get${1}() {",
+      "\treturn fetch({",
+      "\t\turl: `${2}`,",
+      "\t\tmethod: 'get'",
+      "\t})",
+      "}"
+    ]
+  },
+  " get query api template": {
+    "prefix": "l-api__get-query",
+    "body": [
+      "export function get${1}(query) {",
+      "\treturn fetch({",
+      "\t\turl: `${2}?${${query}}`,",
+      "\t\tmethod: 'get'",
+      "\t})",
+      "}"
+    ]
+  },
+  "api upsert api template": {
+    "prefix": "l-api__post",
+    "body": [
+      "export function ${1}(data) {",
+      "\treturn fetch({",
+      "\t\turl: '${2}',",
+      "\t\tmethod: 'post',",
+      "\t\tdata",
+      "\t})",
+      "}"
+    ]
+  }
+}

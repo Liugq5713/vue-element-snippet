@@ -1,0 +1,34 @@
+{
+  "import from api": {
+    "prefix": "l-import__api",
+    "body": ["import { ${1} } from './common/api.js'"]
+  },
+  "import from utils": {
+    "prefix": "l-import__util",
+    "body": ["import { ${1} } from '@/utils${2}'"]
+  },
+  "import fetch from utils": {
+    "prefix": "l-import__fetch",
+    "body": ["import fetch from '@/utils/fetch'"]
+  },
+  "import param from utils": {
+    "prefix": "l-import__param",
+    "body": ["import { param } from '@/utils'"]
+  },
+  "import parseTime from utils": {
+    "prefix": "l-import__parseTime",
+    "body": [" import { parseTime} from '@/utils'"]
+  },
+  "import dateTime component from components": {
+    "prefix": "l-import__dateTime",
+    "body": ["import dateTime from '@/components/DatePick/dateTime'"]
+  },
+  "import Upload": {
+    "prefix": "l-import__upload",
+    "body": ["import Upload from '@/components/Upload/singleImage2'"]
+  },
+  "import Upload with plus icon": {
+    "prefix": "l-import__upload--plus",
+    "body": ["import Upload from '@/components/Upload/singleImageIconPlus'"]
+  }
+}

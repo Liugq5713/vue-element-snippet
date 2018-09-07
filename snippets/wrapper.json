@@ -1,0 +1,41 @@
+{
+  "wrapper el-card": {
+    "prefix": "l-wrapper__card",
+    "body": ["<el-card class='box-card'>", "\t ${1}", "</el-card>"]
+  },
+  "wrapper el-form": {
+    "prefix": "l-wrapper__form",
+    "body": [
+      "<el-form :model='${1}' label-width='100px' style='width:600px'>",
+      "\t ${2}",
+      "</el-form>"
+    ]
+  },
+  "wrapper el-form__validate": {
+    "prefix": "l-wrapper__form",
+    "body": [
+      "<el-form :model='${1}' :rules='rules' ref='${1}form' label-width='100px' style='width:600px'>",
+      "\t ${2}",
+      "\t <el-form-item>",
+      "\t\t <el-button type='primary' @click=\"${2}('${1}form')\">确定</el-button>",
+      "\t </el-form-item>",
+      "</el-form>"
+    ]
+  },
+  "wrapper el-dialog": {
+    "prefix": "l-wrapper__dialog",
+    "body": [
+      "<el-dialog title='${1}' :visible.sync='dialogFormVisible'>",
+      "\t ${2}",
+      "</el-dialog>"
+    ]
+  },
+  "wrapper el-table": {
+    "prefix": "l-wrapper__table",
+    "body": [
+      "<el-table:data='${1}' border style='width: 100%'>",
+      "\t ",
+      "</el-table>"
+    ]
+  }
+}

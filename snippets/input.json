@@ -1,0 +1,133 @@
+{
+  "el-input__trim": {
+    "prefix": "l-input__trim",
+    "body": [
+      "<el-input v-model.trim='${1}' placeholder='请输入' style='width:200px'></el-input>"
+    ]
+  },
+  "el-input-number": {
+    "prefix": "l-input__number",
+    "body": [
+      "<el-input v-model.number='${1}' placeholder='请输入' style='width:200px' type='number'></el-input>"
+    ]
+  },
+  "el-input__checkbox": {
+    "prefix": "l-input__checkbox",
+    "body": ["<el-checkbox v-model='${1}' label='true'>${3}</el-checkbox>"]
+  },
+
+  "el-input__switch": {
+    "prefix": "l-input__switch",
+    "body": [
+      "<el-switch v-model='${1}' active-color='#13ce66' inactive-color='#ff4949'/>"
+    ]
+  },
+  "el-input__select": {
+    "prefix": "l-input__select",
+    "body": [
+      "\t<el-select v-model='${1}' clearable   placeholder='请输入${2}'>",
+      "\t\t<el-option v-for='item in ${4}' :key='item.value' :label='item.label' :value='item.value'>",
+      "\t\t</el-option>",
+      "\t</el-select>"
+    ]
+  },
+  "el-input__dateTime": {
+    "prefix": "l-input__dateTime",
+    "body": ["<dateTime v-model='${1}' />"]
+  },
+  "el-input__dateRange": {
+    "prefix": "l-input__dateRange",
+    "body": [
+      "<date-range :start.sync='${1:start_time}' :end.sync='${2:end_time}'/>"
+    ]
+  },
+
+  "el-input__trim--query": {
+    "prefix": "l-input__trim--query",
+    "body": [
+      "<el-input v-model.trim='query.${1}' placeholder='请输入${2}'  style='width:200px' @keyup.enter.native='${3}'></el-input>"
+    ]
+  },
+  "el-input__number--query": {
+    "prefix": "l-input__number--query",
+    "body": [
+      "<el-input v-model.number='query.${1}' placeholder='请输入${2}' style='width:200px' type='number' @keyup.enter.native='${3}'></el-input>"
+    ]
+  },
+  "el-input__checkbox--query": {
+    "prefix": "l-input__checkbox--query",
+    "body": [
+      "<el-checkbox v-model='${1}' label='true' @change='${2}'>${3}</el-checkbox>"
+    ]
+  },
+  "el-input__select--query": {
+    "prefix": "l-input__select--query",
+    "body": [
+      "\t<el-select v-model='query.${1}' clearable placeholder='请输入' @change='${2}'>",
+      "\t\t<el-option v-for='item in ${3}' :key='item.value' :label='item.label' :value='item.value'>",
+      "\t\t</el-option>",
+      "\t</el-select>"
+    ]
+  },
+  "el-input__dateRange--query": {
+    "prefix": "l-input__dateRange--query",
+    "body": [
+      "<date-range :start.sync='query.${1:start_time}' :end.sync='query.${2:end_time}' @change='${3}' />"
+    ]
+  },
+
+  "el-mini-button__primary": {
+    "prefix": "l-button__primary",
+    "body": [
+      "<el-button size='mini' type='primary' @click='${1}'>${2}</el-button>"
+    ]
+  },
+  "el-mini-button__success": {
+    "prefix": "l-button__success",
+    "body": [
+      "<el-button size='mini' type='success' @click='${1}'>${2}</el-button>"
+    ]
+  },
+  "el-mini-button__warning": {
+    "prefix": "l-button__warning",
+    "body": [
+      "<el-button size='mini' type='warning' @click='${1}'>${2}</el-button>"
+    ]
+  },
+  "el-mini-button__danger": {
+    "prefix": "l-button__danger",
+    "body": [
+      "<el-button size='mini' type='danger' @click='${1}'>${2}</el-button>"
+    ]
+  },
+  "el-button__search-icon ": {
+    "prefix": "l-button__search-icon",
+    "body": [
+      "<el-button type='primary' style='margin-left: 10px' icon='el-icon-search' @click='${1}'>搜索</el-button>"
+    ]
+  },
+  "el-button__export-icon ": {
+    "prefix": "l-button__export-icon",
+    "body": [
+      "<el-button :loading='downloadLoading' type='primary' style='margin-left: 10px' icon='el-icon-download' @click='handleDownload'>搜索</el-button>"
+    ]
+  },
+  "el-button__create-icon": {
+    "prefix": "l-button__create-icon",
+    "body": [
+      "<el-button type='primary' style='margin-left: 10px' icon='el-icon-edit-outline' @click='${1}'>创建</el-button>"
+    ]
+  },
+  "el-button__add-icon": {
+    "prefix": "l-button__add-icon",
+    "body": [
+      "<el-button type='primary' style='margin-left: 10px' icon='el-icon-plus' @click='${1}'>新增</el-button>"
+    ]
+  },
+  "el-button__delete-icon": {
+    "prefix": "l-button__delete-icon",
+    "body": [
+      "<el-button type='primary' style='margin-left: 10px' icon='el-icon-minus' @click='${1}'>新增</el-button>"
+    ]
+  }
+}
