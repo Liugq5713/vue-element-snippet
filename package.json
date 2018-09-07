@@ -7,6 +7,20 @@
   "engines": {
     "vscode": "^1.24.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liugq5713/vue-element-admin-snippet.git"
+  },
+  "keywords": [
+    "vue",
+    "element",
+    "vue-element-admin"
+  ],
+  "author": {
+    "name": "liugq",
+    "email": "kuchcy@163.com",
+    "url": "https://github.com/Liugq5713"
+  },
   "categories": [
     "Snippets"
   ],
