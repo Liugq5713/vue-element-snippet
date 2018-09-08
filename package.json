@@ -4,8 +4,9 @@
   "description": "help you tote bricks quickly",
   "version": "0.0.1",
   "publisher": "liugq",
+  "icon": "icon.png",
   "engines": {
-    "vscode": "^1.24.0"
+    "vscode": "^1.18.0"
   },
   "repository": {
     "type": "git",
