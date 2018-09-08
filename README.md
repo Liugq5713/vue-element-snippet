@@ -8,26 +8,18 @@ a snippet for [vue-element-admin](https://github.com/PanJiaChen/vue-element-admi
 
 install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
-## snippet struction
+## snippets
 
-### base
-
-### wrapper
-
-### apis
-
-### import
-
-### conponents
-
-### form
-
-### message
-
-### methods
-
-### router
-
-### table
-
-### tag
+- l-base-xxx
+- l-wrapper-xxx
+- l-api-xxx
+- l-import-xxx
+- l-conponent-xxx
+- l-base-xxx
+- l-input-xxx
+- l-form-xxx
+- l-message-xxx
+- l-method-xxx
+- l-router-xxx
+- l-table-xxx
+- l-tag-xxx
