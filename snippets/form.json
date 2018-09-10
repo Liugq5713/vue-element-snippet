@@ -17,18 +17,6 @@
       "${0}"
     ]
   },
-  "el-form-item select": {
-    "prefix": "l-form-item__select",
-    "body": [
-      "<el-form-item label='${1}'>",
-      "\t<el-select v-model='${2}' placeholder='${3}'>",
-      "\t\t<el-option v-for='item in ${3}' :key='item.value' :label='item.label' :value='item.value'>",
-      "\t\t</el-option>",
-      "\t</el-select>",
-      "</el-form-item>",
-      "${0}"
-    ]
-  },
   "el-form-item switch": {
     "prefix": "l-form-item__switch",
     "body": [
@@ -38,11 +26,14 @@
       "${0}"
     ]
   },
-  "el-form-item__upload": {
-    "prefix": "l-form-item__upload",
+  "el-form-item select": {
+    "prefix": "l-form-item__select",
     "body": [
       "<el-form-item label='${1}'>",
-      "<Upload style='width: 200px; height:200px' v-model='${2}'></Upload>",
+      "\t<el-select v-model='${2}' placeholder='${3}'>",
+      "\t\t<el-option v-for='item in ${3}' :key='item.value' :label='item.label' :value='item.value'>",
+      "\t\t</el-option>",
+      "\t</el-select>",
       "</el-form-item>",
       "${0}"
     ]
@@ -61,6 +52,15 @@
     "body": [
       "<el-form-item label='${1}'>",
       "\t<date-range :start.sync='${2:start_time}' :end.sync='${3:end_time}' />",
+      "</el-form-item>",
+      "${0}"
+    ]
+  },
+  "el-form-item__upload": {
+    "prefix": "l-form-item__upload",
+    "body": [
+      "<el-form-item label='${1}'>",
+      "<Upload style='width: 200px; height:200px' v-model='${2}'></Upload>",
       "</el-form-item>",
       "${0}"
     ]

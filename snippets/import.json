@@ -3,6 +3,10 @@
     "prefix": "l-import__api",
     "body": ["import { ${1} } from './common/api.js'"]
   },
+  "import from opt": {
+    "prefix": "l-import__opt",
+    "body": ["import { ${1} } from './common/opt.js'"]
+  },
   "import from utils": {
     "prefix": "l-import__util",
     "body": ["import { ${1} } from '@/utils${2}'"]

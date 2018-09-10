@@ -7,7 +7,7 @@
     "description": "element table row"
   },
   "element table row template": {
-    "prefix": "l-table__row-template",
+    "prefix": "l-table__row--template",
     "body": [
       "<el-table-column label='${1}'  align='center'>",
       "\t<template slot-scope={row}>",

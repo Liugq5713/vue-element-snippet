@@ -1,5 +1,5 @@
 {
-  "prefix": "l-conponent-sticky",
+  "prefix": "l-conponent__sticky",
   "body": [
     "<Sticky className='sub-navbar' style='margin-top: 20px'>",
     "\t${1}",

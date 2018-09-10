@@ -101,31 +101,31 @@
     ]
   },
   "el-button__search-icon ": {
-    "prefix": "l-button__search-icon",
+    "prefix": "l-button__search--icon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-search' @click='${1}'>搜索</el-button>"
     ]
   },
   "el-button__export-icon ": {
-    "prefix": "l-button__export-icon",
+    "prefix": "l-button__export--icon",
     "body": [
       "<el-button :loading='downloadLoading' type='primary' style='margin-left: 10px' icon='el-icon-download' @click='handleDownload'>搜索</el-button>"
     ]
   },
   "el-button__create-icon": {
-    "prefix": "l-button__create-icon",
+    "prefix": "l-button__create--icon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-edit-outline' @click='${1}'>创建</el-button>"
     ]
   },
   "el-button__add-icon": {
-    "prefix": "l-button__add-icon",
+    "prefix": "l-button__add--icon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-plus' @click='${1}'>新增</el-button>"
     ]
   },
   "el-button__delete-icon": {
-    "prefix": "l-button__delete-icon",
+    "prefix": "l-button__delete--icon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-minus' @click='${1}'>新增</el-button>"
     ]

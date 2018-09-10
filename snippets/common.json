@@ -1,0 +1,13 @@
+{
+  "options templete": {
+    "prefix": "l-common__opt",
+    "body": [
+      "export const ${1}_opts = [",
+      "\t{",
+      "\t\tvalue: '${2}',",
+      "\t\tlabel: '${3}'",
+      "\t},",
+      "]"
+    ]
+  }
+}
