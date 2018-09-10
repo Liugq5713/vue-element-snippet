@@ -137,7 +137,7 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 ### common
 
-> some snippet i don't now where to put
+> some snippet i don't know where to put
 
 | Snipet          | Purpose                 |
 | --------------- | ----------------------- |
