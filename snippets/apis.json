@@ -11,7 +11,7 @@
     ]
   },
   " get query api template": {
-    "prefix": "l-api__get-query",
+    "prefix": "l-api__get--query",
     "body": [
       "export function get${1}(query) {",
       "\treturn fetch({",

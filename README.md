@@ -106,11 +106,11 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 #### Apis
 
-| Snipet             | Purpose           |
-| ------------------ | ----------------- |
-| l-api\_\_get       | get request       |
-| l-api\_\_get-query | get query request |
-| l-api\_\_post      | post request      |
+| Snipet              | Purpose           |
+| ------------------- | ----------------- |
+| l-api\_\_get        | get request       |
+| l-api\_\_get--query | get query request |
+| l-api\_\_post       | post request      |
 
 #### Methods
 
@@ -123,7 +123,7 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 | Snipet                            | Purpose                          |
 | --------------------------------- | -------------------------------- |
-| l-method-skipToRoute              | skip to a window in current page |
+| l-method\_\_skipToRoute           | skip to a window in current page |
 | l-method\_\_skipToRoute-newWindow | skip to a new page               |
 | l-method\_\_skipToPrevious        | skip to previous page            |
 
