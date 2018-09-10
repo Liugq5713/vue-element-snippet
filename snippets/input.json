@@ -2,13 +2,13 @@
   "el-input__trim": {
     "prefix": "l-input__trim",
     "body": [
-      "<el-input v-model.trim='${1}' placeholder='请输入' style='width:200px'></el-input>"
+      "<el-input v-model.trim='${1}' placeholder='请输入${2}' style='width:200px'></el-input>"
     ]
   },
   "el-input-number": {
     "prefix": "l-input__number",
     "body": [
-      "<el-input v-model.number='${1}' placeholder='请输入' style='width:200px' type='number'></el-input>"
+      "<el-input v-model.number='${1}' placeholder='请输入${2}' style='width:200px' type='number'></el-input>"
     ]
   },
   "el-input__checkbox": {
@@ -25,7 +25,7 @@
   "el-input__select": {
     "prefix": "l-input__select",
     "body": [
-      "\t<el-select v-model='${1}' clearable   placeholder='请输入${2}'>",
+      "\t<el-select v-model='${1}' clearable placeholder='请选择${2}'>",
       "\t\t<el-option v-for='item in ${4}' :key='item.value' :label='item.label' :value='item.value'>",
       "\t\t</el-option>",
       "\t</el-select>"

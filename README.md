@@ -30,56 +30,55 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 #### Form
 
-| Snipet                      | Purpose |
-| --------------------------- | ------- |
-| l-form-item\_\_input_trim   |         |
-| l-form-item\_\_input_number |         |
-| l-form-item\_\_select       |         |
-| l-form-item\_\_switch       |         |
-| l-form-item\_\_select       |         |
-| l-form-item\_\_dateTime     |         |
-| l-form-item\_\_dateRange    |         |
-| l-form-item\_\_upload       |         |
+| Snipet                      | Purpose                                                          |
+| --------------------------- | ---------------------------------------------------------------- |
+| l-form-item\_\_input_trim   | el-input in el-from-item with trim                               |
+| l-form-item\_\_input_number | el-input in el-from-item with number                             |
+| l-form-item\_\_switch       | el-switch in el-from-item                                        |
+| l-form-item\_\_select       | el-select in el-from-item                                        |
+| l-form-item\_\_dateTime     | select dateTime in el-from-item                                  |
+| l-form-item\_\_dateRange    | select dataRange in el-from-item                                 |
+| l-form-item\_\_upload       | upload image in el-from-item ,you should import Upload component |
 
 #### Input
 
-| Snipet                      | Purpose |
-| --------------------------- | ------- |
-| l-input\_\_trim             |         |
-| l-input\_\_number           |         |
-| l-input\_\_checkbox         |         |
-| l-input\_\_switch           |         |
-| l-input\_\_select           |         |
-| l-input\_\_dateTime         |         |
-| l-input\_\_dateRange        |         |
-| l-input\_\_trim--query      |         |
-| l-input\_\_number--query    |         |
-| l-input\_\_checkbox--query  |         |
-| l-input\_\_select--query    |         |
-| l-input\_\_dateRange--query |         |
+| Snipet                      | Purpose                        |
+| --------------------------- | ------------------------------ |
+| l-input\_\_trim             | el-input with trim             |
+| l-input\_\_number           | el-input with number           |
+| l-input\_\_checkbox         | el-checkbox                    |
+| l-input\_\_switch           | el-switch                      |
+| l-input\_\_select           | el-select                      |
+| l-input\_\_dateTime         | select dateTime                |
+| l-input\_\_dateRange        | select dataRange               |
+| l-input\_\_trim--query      | el-input with trim and query   |
+| l-input\_\_number--query    | el-input with number and query |
+| l-input\_\_checkbox--query  | el-checkbox with query         |
+| l-input\_\_select--query    | el-select with query           |
+| l-input\_\_dateRange--query | el-select with query           |
 
 #### Button
 
-| Snipet                   | Purpose |
-| ------------------------ | ------- |
-| l-button\_\_primary      |         |
-| l-button\_\_success      |         |
-| l-button\_\_danger       |         |
-| l-button\_\_search--icon |         |
-| l-button\_\_export--icon |         |
-| l-button\_\_create--icon |         |
-| l-button\_\_add--icon    |         |
-| l-button\_\_delete--icon |         |
+| Snipet                   | Purpose                            |
+| ------------------------ | ---------------------------------- |
+| l-button\_\_primary      | primary el-button                  |
+| l-button\_\_success      | success el-button                  |
+| l-button\_\_danger       | danger el-button                   |
+| l-button\_\_search--icon | primary el-button with search icon |
+| l-button\_\_export--icon | primary el-button with export icon |
+| l-button\_\_create--icon | primary el-button with create icon |
+| l-button\_\_add--icon    | primary el-button with add icon    |
+| l-button\_\_delete--icon | primary el-button with delete icon |
 
 #### Tag
 
-| Snipet           | Purpose |
-| ---------------- | ------- |
-| l-tag\_\_primary |         |
-| l-tag\_\_success |         |
-| l-tag\_\_info    |         |
-| l-tag\_\_warning |         |
-| l-tag\_\_danger  |         |
+| Snipet           | Purpose        |
+| ---------------- | -------------- |
+| l-tag\_\_primary | primary el-tag |
+| l-tag\_\_success | success el-tag |
+| l-tag\_\_info    | info el-tag    |
+| l-tag\_\_warning | warning el-tag |
+| l-tag\_\_danger  | danger el-tag  |
 
 #### Conponent
 
@@ -91,51 +90,50 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 #### Import
 
-| Snipet                   | Purpose |
-| ------------------------ | ------- |
-| l-import\_\_api          |         |
-| l-import\_\_util         |         |
-| l-import\_\_fetch        |         |
-| l-import\_\_opt          |         |
-| l-import\_\_util"        |         |
-| l-import\_\_fetch        |         |
-| l-import\_\_param        |         |
-| l-import\_\_parseTime    |         |
-| l-import\_\_dateTime     |         |
-| l-import\_\_upload       |         |
-| l-import\_\_upload       |         |
-| l-import\_\_upload--plus |         |
+> import frequently-used components and util and etc
+
+| Snipet                   | Purpose                                            |
+| ------------------------ | -------------------------------------------------- |
+| l-import\_\_api          | import api from common folder                      |
+| l-import\_\_opt          | import option from common folder                   |
+| l-import\_\_util         | import utils                                       |
+| l-import\_\_fetch        | import fetch method from utils floder              |
+| l-import\_\_param        | import param method from utils floder              |
+| l-import\_\_parseTime    | import parseTime method from utils floder          |
+| l-import\_\_dateTime     | import dateTime component from Conponents floder   |
+| l-import\_\_upload       | import upload component from Conponents floder     |
+| l-import\_\_upload--plus | import uploadPlus component from Conponents floder |
 
 #### Apis
 
-| Snipet             | Purpose |
-| ------------------ | ------- |
-| l-api\_\_get       |         |
-| l-api\_\_get-query |         |
-| l-api\_\_post      |         |
+| Snipet             | Purpose           |
+| ------------------ | ----------------- |
+| l-api\_\_get       | get request       |
+| l-api\_\_get-query | get query request |
+| l-api\_\_post      | post request      |
 
 #### Methods
 
-| Snipet                     | Purpose |
-| -------------------------- | ------- |
-| l-method\_\_pagination     |         |
-| l-method\_\_handleDownload |         |
+| Snipet                     | Purpose          |
+| -------------------------- | ---------------- |
+| l-method\_\_pagination     | handlePagination |
+| l-method\_\_handleDownload | handleDownload   |
 
 #### Router
 
-| Snipet                            | Purpose |
-| --------------------------------- | ------- |
-| l-method-skipToRoute              |         |
-| l-method\_\_skipToRoute-newWindow |         |
-| l-method\_\_skipToPrevious        |         |
+| Snipet                            | Purpose                          |
+| --------------------------------- | -------------------------------- |
+| l-method-skipToRoute              | skip to a window in current page |
+| l-method\_\_skipToRoute-newWindow | skip to a new page               |
+| l-method\_\_skipToPrevious        | skip to previous page            |
 
 #### Message
 
-| Snipet               | Purpose |
-| -------------------- | ------- |
-| l-message\_\_success |         |
-| l-message\_\_error   |         |
-| l-message\_\_confirm |         |
+| Snipet               | Purpose                 |
+| -------------------- | ----------------------- |
+| l-message\_\_success | success message         |
+| l-message\_\_error   | error message           |
+| l-message\_\_confirm | message need to confirm |
 
 ### common
 
