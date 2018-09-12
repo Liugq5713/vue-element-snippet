@@ -19,4 +19,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [1.0.7]
 
+- modify the `l-base__list` snippet
+
+## [1.0.8]
+
+- revise the `l-input__select`
 - modify the `l-base-list` snippet
+- modify according to BEM

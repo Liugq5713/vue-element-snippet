@@ -7,6 +7,10 @@
     "prefix": "l-import__opt",
     "body": ["import { ${1} } from './common/opt.js'"]
   },
+  "import from defaultVal.js": {
+    "prefix": "l-import__defaultVal",
+    "body": ["import { ${1} } from './common/defaultVal.js'"]
+  },
   "import from utils": {
     "prefix": "l-import__util",
     "body": ["import { ${1} } from '@/utils${2}'"]

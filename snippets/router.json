@@ -4,7 +4,7 @@
     "body": ["skipTo${1}(id) {", "\t this.\\$router.push(`/${${id}}`)", "},"]
   },
   "skip to route method with open a new window": {
-    "prefix": "l-method__skipToRoute-newWindow",
+    "prefix": "l-method__skipToRoute--newWindow",
     "body": ["skipTo${1}(id) {", "\t window.open(`/${${id}}`, '_blank')", "},"]
   },
   "skip to previous route": {

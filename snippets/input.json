@@ -63,8 +63,8 @@
   "el-input__select--query": {
     "prefix": "l-input__select--query",
     "body": [
-      "\t<el-select v-model='query.${1}' clearable placeholder='请输入' @change='${2}'>",
-      "\t\t<el-option v-for='item in ${3}' :key='item.value' :label='item.label' :value='item.value'>",
+      "\t<el-select v-model='query.${1}' clearable placeholder='请选择${2}' @change='${3}'>",
+      "\t\t<el-option v-for='item in ${4}' :key='item.value' :label='item.label' :value='item.value'>",
       "\t\t</el-option>",
       "\t</el-select>"
     ]
@@ -77,55 +77,55 @@
   },
 
   "el-mini-button__primary": {
-    "prefix": "l-button__primary",
+    "prefix": "l-button--primary",
     "body": [
       "<el-button size='mini' type='primary' @click='${1}'>${2}</el-button>"
     ]
   },
   "el-mini-button__success": {
-    "prefix": "l-button__success",
+    "prefix": "l-button--success",
     "body": [
       "<el-button size='mini' type='success' @click='${1}'>${2}</el-button>"
     ]
   },
   "el-mini-button__warning": {
-    "prefix": "l-button__warning",
+    "prefix": "l-button--warning",
     "body": [
       "<el-button size='mini' type='warning' @click='${1}'>${2}</el-button>"
     ]
   },
   "el-mini-button__danger": {
-    "prefix": "l-button__danger",
+    "prefix": "l-button--danger",
     "body": [
       "<el-button size='mini' type='danger' @click='${1}'>${2}</el-button>"
     ]
   },
   "el-button__search-icon ": {
-    "prefix": "l-button__search--icon",
+    "prefix": "l-button--searchIcon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-search' @click='${1}'>搜索</el-button>"
     ]
   },
   "el-button__export-icon ": {
-    "prefix": "l-button__export--icon",
+    "prefix": "l-button--exportIcon",
     "body": [
       "<el-button :loading='downloadLoading' type='primary' style='margin-left: 10px' icon='el-icon-download' @click='handleDownload'>搜索</el-button>"
     ]
   },
   "el-button__create-icon": {
-    "prefix": "l-button__create--icon",
+    "prefix": "l-button--createIcon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-edit-outline' @click='${1}'>创建</el-button>"
     ]
   },
   "el-button__add-icon": {
-    "prefix": "l-button__add--icon",
+    "prefix": "l-button--addIcon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-plus' @click='${1}'>新增</el-button>"
     ]
   },
   "el-button__delete-icon": {
-    "prefix": "l-button__delete--icon",
+    "prefix": "l-button--deleteIcon",
     "body": [
       "<el-button type='primary' style='margin-left: 10px' icon='el-icon-minus' @click='${1}'>新增</el-button>"
     ]

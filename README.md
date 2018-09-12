@@ -59,26 +59,26 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 #### Button
 
-| Snipet                   | Purpose                            |
-| ------------------------ | ---------------------------------- |
-| l-button\_\_primary      | primary el-button                  |
-| l-button\_\_success      | success el-button                  |
-| l-button\_\_danger       | danger el-button                   |
-| l-button\_\_search--icon | primary el-button with search icon |
-| l-button\_\_export--icon | primary el-button with export icon |
-| l-button\_\_create--icon | primary el-button with create icon |
-| l-button\_\_add--icon    | primary el-button with add icon    |
-| l-button\_\_delete--icon | primary el-button with delete icon |
+| Snipet               | Purpose                            |
+| -------------------- | ---------------------------------- |
+| l-button--primary    | primary el-button                  |
+| l-button--success    | success el-button                  |
+| l-button--danger     | danger el-button                   |
+| l-button--searchIcon | primary el-button with search icon |
+| l-button--exportIcon | primary el-button with export icon |
+| l-button--createIcon | primary el-button with create icon |
+| l-button--addIcon    | primary el-button with add icon    |
+| l-button--deleteIcon | primary el-button with delete icon |
 
 #### Tag
 
-| Snipet           | Purpose        |
-| ---------------- | -------------- |
-| l-tag\_\_primary | primary el-tag |
-| l-tag\_\_success | success el-tag |
-| l-tag\_\_info    | info el-tag    |
-| l-tag\_\_warning | warning el-tag |
-| l-tag\_\_danger  | danger el-tag  |
+| Snipet         | Purpose        |
+| -------------- | -------------- |
+| l-tag--primary | primary el-tag |
+| l-tag--success | success el-tag |
+| l-tag--info    | info el-tag    |
+| l-tag--warning | warning el-tag |
+| l-tag--danger  | danger el-tag  |
 
 #### Conponent
 
@@ -96,6 +96,7 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 | ------------------------ | -------------------------------------------------- |
 | l-import\_\_api          | import api from common folder                      |
 | l-import\_\_opt          | import option from common folder                   |
+| l-import\_\_defaultVal   | import default from common folder                  |
 | l-import\_\_util         | import utils                                       |
 | l-import\_\_fetch        | import fetch method from utils floder              |
 | l-import\_\_param        | import param method from utils floder              |
@@ -121,11 +122,11 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 #### Router
 
-| Snipet                            | Purpose                          |
-| --------------------------------- | -------------------------------- |
-| l-method\_\_skipToRoute           | skip to a window in current page |
-| l-method\_\_skipToRoute-newWindow | skip to a new page               |
-| l-method\_\_skipToPrevious        | skip to previous page            |
+| Snipet                             | Purpose                          |
+| ---------------------------------- | -------------------------------- |
+| l-method\_\_skipToRoute            | skip to a window in current page |
+| l-method\_\_skipToRoute--newWindow | skip to a new page               |
+| l-method\_\_skipToPrevious         | skip to previous page            |
 
 #### Message
 
