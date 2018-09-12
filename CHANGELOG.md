@@ -16,3 +16,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.4]
 
 - complete README
+
+## [1.0.7]
+
+- modify the `l-base-list` snippet
