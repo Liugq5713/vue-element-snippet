@@ -51,6 +51,8 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 | l-input\_\_select           | el-select                      |
 | l-input\_\_dateTime         | select dateTime                |
 | l-input\_\_dateRange        | select dataRange               |
+| l-input\_\_textarea         | el-input textarea              |
+| l-input\_\_radio            | el-radio-group                 |
 | l-input\_\_trim--query      | el-input with trim and query   |
 | l-input\_\_number--query    | el-input with number and query |
 | l-input\_\_checkbox--query  | el-checkbox with query         |
@@ -119,6 +121,7 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 | -------------------------- | ---------------- |
 | l-method\_\_pagination     | handlePagination |
 | l-method\_\_handleDownload | handleDownload   |
+| l-method\_\_paste          | handlePaste      |
 
 #### Router
 

@@ -30,3 +30,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [1.0.9]
 
 - add paste method
+
+## [1.0.10]
+
+- add radio group
