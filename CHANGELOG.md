@@ -26,3 +26,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - revise the `l-input__select`
 - modify the `l-base-list` snippet
 - modify according to BEM
+
+## [1.0.9]
+
+- add paste method

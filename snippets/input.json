@@ -41,7 +41,17 @@
       "<date-range :start.sync='${1:start_time}' :end.sync='${2:end_time}'/>"
     ]
   },
-
+  "el-input__paste": {
+    "prefix": "l-input__paste",
+    "body": [
+      "<el-input",
+      "\t :rows='2'",
+      "\t v-model='$1'",
+      "\t type='textarea'",
+      "\t placeholder='请从Execl中的手机号粘贴进此处，或直接输入以逗号进行分隔'",
+      "\t @blur='${2}'/>"
+    ]
+  },
   "el-input__trim--query": {
     "prefix": "l-input__trim--query",
     "body": [

@@ -34,5 +34,17 @@
       "\t }))",
       "}"
     ]
+  },
+  "handle copy method": {
+    "prefix": "l-method__paste",
+    "body": [
+      "handlePaste(inputVal) {",
+      "\t const inputValTrim = inputVal.trim",
+      "\t return inputValTrim..split(/[,，\r\n]+/g)",
+      "\t\t .map(val => {",
+      "\t\t  return val.trim()",
+      "\t })",
+      "}"
+    ]
   }
 }
