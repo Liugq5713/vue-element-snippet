@@ -128,7 +128,7 @@
   "el-button__export-icon ": {
     "prefix": "l-button--exportIcon",
     "body": [
-      "<el-button :loading='downloadLoading' type='primary' style='margin-left: 10px' icon='el-icon-download' @click='handleDownload'>搜索</el-button>"
+      "<el-button :loading='downloadLoading' type='primary' style='margin-left: 10px' icon='el-icon-download' @click='handleDownload'>导出</el-button>"
     ]
   },
   "el-button__create-icon": {
