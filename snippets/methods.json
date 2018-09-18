@@ -18,9 +18,8 @@
       "\t\t const { export_json_to_excel } = require('vendor/Export2Excel')",
       "\t\t const tHeader = [${1}]",
       "\t\t const filterVal = [${2}]",
-      "\t\t const query = Object.assign({}, this.query)",
-      "\t\t query.limit = 1000",
-      "\t\t materialList(query).then(response => {",
+      "\t\t const query = {...this.query,cursor:1,limit:10000})",
+      "\t\t ${4}(param(query)).then(response => {",
       "\t\t\t const list = response.data.items",
       "\t\t\t const data = this.formatJson(filterVal, list)",
       "\t\t\t this.downloadLoading = false",
@@ -32,7 +31,7 @@
       "\t return jsonData.map(v => filterVal.map(j => {",
       "\t\t return v[j]",
       "\t }))",
-      "}"
+      "},"
     ]
   },
   "handle copy method": {
