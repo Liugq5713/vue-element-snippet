@@ -11,11 +11,18 @@
       "<el-input v-model.number='${1}' placeholder='请输入${2}' style='width:200px' type='number'></el-input>"
     ]
   },
-  "el-input__checkbox": {
-    "prefix": "l-input__checkbox",
+  "el-input__checkbox--single": {
+    "prefix": "l-input__checkbox--single",
     "body": ["<el-checkbox v-model='${1}' label='true'>${3}</el-checkbox>"]
   },
-
+  "el-input__checkbox--group": {
+    "prefix": "l-input__checkbox--group",
+    "body": [
+      "<el-checkbox-group v-model='${1}'>",
+      "\t <el-checkbox  :label='${2}'>${2}</el-checkbox>",
+      "</el-checkbox-group>"
+    ]
+  },
   "el-input__switch": {
     "prefix": "l-input__switch",
     "body": [
@@ -52,7 +59,6 @@
       "\t @blur='${3}'/>"
     ]
   },
-
   "el-input__radio": {
     "prefix": "l-input__radio",
     "body": [
@@ -61,6 +67,7 @@
       "</el-radio-group>"
     ]
   },
+
   "el-input__trim--query": {
     "prefix": "l-input__trim--query",
     "body": [
