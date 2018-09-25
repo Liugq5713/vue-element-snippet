@@ -63,7 +63,7 @@
       "\t\t handlePagination(val) {",
       "\t\t\t this.query.limit = val.limit",
       "\t\t\t this.query.cursor = val.page",
-      "\t\t\t this.${3}",
+      "\t\t\t this.${1}",
       "\t\t  }",
       "\t }",
       "}",
