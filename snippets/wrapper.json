@@ -14,10 +14,10 @@
   "wrapper el-form__validate": {
     "prefix": "l-wrapper__form--validate",
     "body": [
-      "<el-form :model='${1}' :rules='rules' ref='${1}form' label-width='100px' style='width:600px'>",
+      "<el-form :model='${1}' :rules='rules' ref='${1}Form' label-width='100px' style='width:600px'>",
       "\t ${2}",
       "\t <el-form-item>",
-      "\t\t <el-button type='primary' @click=\"${2}('${1}form')\">确定</el-button>",
+      "\t\t <el-button type='primary' @click=\"${2}('${1}Form')\">确定</el-button>",
       "\t </el-form-item>",
       "</el-form>"
     ]
