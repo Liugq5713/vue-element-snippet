@@ -51,12 +51,7 @@
   "el-input__textarea": {
     "prefix": "l-input__textarea",
     "body": [
-      "<el-input",
-      "\t :rows='2'",
-      "\t v-model='$1'",
-      "\t type='textarea'",
-      "\t placeholder='${2}'",
-      "\t @blur='${3}'/>"
+      "<el-input :rows='2' v-model='$1' type='textarea'  placeholder='请输入${2}' @blur='${3}'/>"
     ]
   },
   "el-input__radio": {

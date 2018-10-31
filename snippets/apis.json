@@ -15,7 +15,7 @@
     "body": [
       "export function get${1}(query) {",
       "\treturn fetch({",
-      "\t\turl: `${2}?${${param(query)}}`,",
+      "\t\turl: `${2}?${param(query)}`,",
       "\t\tmethod: 'get'",
       "\t})",
       "}"

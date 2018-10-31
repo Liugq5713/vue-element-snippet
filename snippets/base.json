@@ -90,10 +90,6 @@
       "\t\t\t\t <el-switch v-model='' active-color='#13ce66' inactive-color='#ff4949'>",
       "\t\t\t\t </el-switch>",
       "\t\t\t </el-form-item>",
-      "\t\t\t <el-form-item>",
-      "\t\t\t\t <el-button v-if='+id' type='success' @click='${6}'>更新配置</el-button>",
-      "\t\t\t\t <el-button v-else type='success' @click='${6}'>新建任务</el-button>",
-      "\t\t\t </el-form-item>",
       "\t\t </el-form>",
       "\t </el-card>",
       "</div>",
@@ -117,7 +113,7 @@
       "</script>"
     ]
   },
-
+ 
   "options templete": {
     "prefix": "l-base__opt",
     "body": [
