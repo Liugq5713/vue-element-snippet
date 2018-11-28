@@ -33,7 +33,7 @@
   "wrapper el-table": {
     "prefix": "l-wrapper__table",
     "body": [
-      "<el-table:data='${1}' border style='width: 100%'>",
+      "<el-table :data='${1}' border style='width: 100%'>",
       "\t ",
       "</el-table>"
     ]

@@ -13,9 +13,8 @@
     "prefix": "l-method__handleDownload",
     "body": [
       "handleDownload() {",
-      "\t require.ensure([], () => {",
+      "\t import('vendor/Export2Excel').then(({export_json_to_excel})=>{",
       "\t\t this.downloadLoading = true",
-      "\t\t const { export_json_to_excel } = require('vendor/Export2Excel')",
       "\t\t const tHeader = []",
       "\t\t const filterVal = []",
       "\t\t const query = {...this.query,cursor:1,limit:10000}",
