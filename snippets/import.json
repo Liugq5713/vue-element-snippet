@@ -17,7 +17,10 @@
   },
   "import fetch from utils": {
     "prefix": "l-import__fetch",
-    "body": ["import fetch from '@/utils/fetch'"]
+    "body": [
+      "import fetch from '@/utils/fetch'",
+      "import { param } from '@/utils'"
+    ]
   },
   "import param from utils": {
     "prefix": "l-import__param",
