@@ -10,14 +10,6 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 
 ## snippets
 
-### Vue
-
-| Snippet          | Purpose                                    |
-| ---------------- | ------------------------------------------ |
-| l-base           | Single file component base                 |
-| l-base\_\_list   | Single file list with query and table base |
-| l-base\_\_deploy | Single file deploy with form base          |
-
 ### Template
 
 #### Table
@@ -82,46 +74,8 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 | l-tag--warning | warning el-tag |
 | l-tag--danger  | danger el-tag  |
 
-#### Conponent
 
-| Snipet                | Purpose          |
-| --------------------- | ---------------- |
-| l-conponent\_\_sticky | Sticky Conponnet |
 
-### Script
-
-#### Import
-
-> import frequently-used components and util and etc
-
-| Snipet                   | Purpose                                            |
-| ------------------------ | -------------------------------------------------- |
-| l-import\_\_api          | import api from common folder                      |
-| l-import\_\_opt          | import option from common folder                   |
-| l-import\_\_defaultVal   | import default from common folder                  |
-| l-import\_\_util         | import utils                                       |
-| l-import\_\_fetch        | import fetch method from utils floder              |
-| l-import\_\_param        | import param method from utils floder              |
-| l-import\_\_parseTime    | import parseTime method from utils floder          |
-| l-import\_\_dateTime     | import dateTime component from Conponents floder   |
-| l-import\_\_upload       | import upload component from Conponents floder     |
-| l-import\_\_upload--plus | import uploadPlus component from Conponents floder |
-
-#### Apis
-
-| Snipet              | Purpose           |
-| ------------------- | ----------------- |
-| l-api\_\_get        | get request       |
-| l-api\_\_get--query | get query request |
-| l-api\_\_post       | post request      |
-
-#### Methods
-
-| Snipet                     | Purpose          |
-| -------------------------- | ---------------- |
-| l-method\_\_pagination     | handlePagination |
-| l-method\_\_handleDownload | handleDownload   |
-| l-method\_\_paste          | handlePaste      |
 
 #### Router
 
@@ -146,3 +100,60 @@ install the extensioon and then type `l-`.all prefixs are begin with `l-`.
 | Snipet          | Purpose                 |
 | --------------- | ----------------------- |
 | l-common\_\_opt | the templete of options |
+
+----
+
+others are deep coupled with vue-element-admin
+
+### Vue
+
+| Snippet          | Purpose                                    |
+| ---------------- | ------------------------------------------ |
+| l-base           | Single file component base                 |
+| l-base\_\_list   | Single file list with query and table base |
+| l-base\_\_deploy | Single file deploy with form base          |
+
+
+
+
+#### Conponent
+
+| Snipet                | Purpose          |
+| --------------------- | ---------------- |
+| l-conponent\_\_sticky | Sticky Conponnet |
+
+### Script
+
+#### Methods
+
+| Snipet                     | Purpose          |
+| -------------------------- | ---------------- |
+| l-method\_\_pagination     | handlePagination |
+| l-method\_\_handleDownload | handleDownload   |
+| l-method\_\_paste          | handlePaste      |
+
+
+#### Apis
+
+| Snipet              | Purpose           |
+| ------------------- | ----------------- |
+| l-api\_\_get        | get request       |
+| l-api\_\_get--query | get query request |
+| l-api\_\_post       | post request      |
+
+#### Import
+
+> import frequently-used components and util and etc
+
+| Snipet                   | Purpose                                            |
+| ------------------------ | -------------------------------------------------- |
+| l-import\_\_api          | import api from common folder                      |
+| l-import\_\_opt          | import option from common folder                   |
+| l-import\_\_defaultVal   | import default from common folder                  |
+| l-import\_\_util         | import utils                                       |
+| l-import\_\_fetch        | import fetch method from utils floder              |
+| l-import\_\_param        | import param method from utils floder              |
+| l-import\_\_parseTime    | import parseTime method from utils floder          |
+| l-import\_\_dateTime     | import dateTime component from Conponents floder   |
+| l-import\_\_upload       | import upload component from Conponents floder     |
+| l-import\_\_upload--plus | import uploadPlus component from Conponents floder |

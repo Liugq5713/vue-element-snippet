@@ -2,20 +2,14 @@
   "a successfull message after operate success": {
     "prefix": "l-message__success",
     "body": [
-      "this.\\$message({",
-      "\tmessage: '${1:更新成功}',",
-      "\ttype: '${2:success}'",
-      "})$0"
+      "this.\\$message.success( '${1:更新成功}'"
     ],
     "description": "Used to show feedback after an activity"
   },
   "a error message after operate defeat": {
     "prefix": "l-message__error",
     "body": [
-      "this.\\$message({",
-      "\tmessage: '${1:更新失败}',",
-      "\ttype: '${2:error}'",
-      "})$0"
+      "this.\\$message.error({'${1:更新失败}',"
     ],
     "description": "Used to show feedback after an activity"
   },
