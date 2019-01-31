@@ -4,22 +4,17 @@ All notable changes to the "vue-element-admin-snippet" extension will be documen
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [0.0.1]
+## [1.1.0]
 
-- Initial release
+- nothing,just want to change the version
 
-## [1.0.0]
+## [1.0.10]
 
-- add logo
-- renovate the README
+- add radio group
 
-## [1.0.4]
+## [1.0.9]
 
-- complete README
-
-## [1.0.7]
-
-- modify the `l-base__list` snippet
+- add paste method
 
 ## [1.0.8]
 
@@ -27,10 +22,19 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - modify the `l-base-list` snippet
 - modify according to BEM
 
-## [1.0.9]
+## [1.0.7]
 
-- add paste method
+- modify the `l-base__list` snippet
 
-## [1.0.10]
+## [1.0.4]
 
-- add radio group
+- complete README
+
+## [1.0.0]
+
+- add logo
+- renovate the README
+
+## [0.0.1]
+
+- Initial release
