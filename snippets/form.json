@@ -3,7 +3,7 @@
     "prefix": "l-form-item__input_trim",
     "body": [
       "<el-form-item label='${1}' style='width: 250px'>",
-      "\t<el-input v-model.trim='${2}'  placeholder='请输入'></el-input>",
+      "\t<el-input v-model.trim='${2}'  placeholder='请输入${1}'></el-input>",
       "</el-form-item>",
       "${0}"
     ]
@@ -12,7 +12,7 @@
     "prefix": "l-form-item__input_number",
     "body": [
       "<el-form-item label='${1}' style='width: 250px'>",
-      "\t<el-input v-model.number='${2}' type='number' placeholder='请输入'></el-input>",
+      "\t<el-input v-model.number='${2}' type='number' placeholder='请输入${1}'></el-input>",
       "</el-form-item>",
       "${0}"
     ]
@@ -30,7 +30,7 @@
     "prefix": "l-form-item__select",
     "body": [
       "<el-form-item label='${1}'>",
-      "\t<el-select v-model='${2}' placeholder='请选择${3}'>",
+      "\t<el-select v-model='${2}' placeholder='请选择${1}'>",
       "\t\t<el-option v-for='item in ${4}' :key='item.value' :label='item.label' :value='item.value'>",
       "\t\t</el-option>",
       "\t</el-select>",
