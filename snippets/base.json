@@ -62,7 +62,7 @@
       "\t\t ${1}ByQuery(val) {",
       "\t\t\t this.query.cursor = 1",
       "\t\t\t this.${1}()",
-      "\t\t  }",
+      "\t\t  },",
       "\t\t edit${2}(${2}){",
       "\t\t }",
       "\t }",
@@ -116,7 +116,7 @@
       "</script>"
     ]
   },
- 
+
   "options templete": {
     "prefix": "l-base__opt",
     "body": [
